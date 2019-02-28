@@ -24,4 +24,8 @@ export class Login {
     this.navCtrl.setRoot('Menu');
   }
 
+  userSignUp() {
+    this.navCtrl.setRoot('Register');
+  }
+
 }

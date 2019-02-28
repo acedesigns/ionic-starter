@@ -1,20 +1,20 @@
-
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 
 @IonicPage()
+
 @Component({
-  selector: 'page-tab1',
-  templateUrl: 'tab1.html',
+  selector: 'page-register',
+  templateUrl: 'register.html',
 })
-export class Tab1 {
+export class Register {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Tab1');
+    console.log('ionViewDidLoad Register');
   }
 
 }
