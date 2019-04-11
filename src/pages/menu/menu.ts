@@ -1,3 +1,10 @@
+/**
+ * =============================================================================
+ *
+ * Creted by anele on
+ *
+ * =============================================================================
+ */
 
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, Nav } from 'ionic-angular';

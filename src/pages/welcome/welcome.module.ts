@@ -1,7 +1,7 @@
 /**
  * =============================================================================
  *
- * Creted by anele on
+ * Creted by anele on 11/04/2019
  *
  * =============================================================================
  */
@@ -10,19 +10,17 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { HttpModule } from '@angular/http';
 
-import { Register } from './register';
-import { RegisterService } from './register.service';
+import { Welcome } from './welcome';
 
 @NgModule({
-  declarations: [ Register ],
+  declarations: [ Welcome ],
 
-  imports: [ IonicPageModule.forChild(Register), HttpModule ],
+  imports: [ IonicPageModule.forChild(Welcome), HttpModule ],
 
-  exports : [ RegisterService ],
+  exports : [  ],
 
   providers : [ HttpModule ],
 
   schemas : [ CUSTOM_ELEMENTS_SCHEMA ]
-
 })
-export class RegisterModule {}
+export class WelcomeModule {}

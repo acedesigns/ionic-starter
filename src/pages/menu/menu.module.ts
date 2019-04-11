@@ -1,13 +1,22 @@
+/**
+ * =============================================================================
+ *
+ * Creted by anele on
+ *
+ * =============================================================================
+ */
+
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { Menu } from './menu';
 
 @NgModule({
-  declarations: [
-    Menu,
-  ],
-  imports: [
-    IonicPageModule.forChild(Menu),
-  ],
+  declarations: [ Menu],
+
+  imports: [ IonicPageModule.forChild(Menu) ],
+
+  exports : [],
+
+  providers : []
 })
 export class MenuModule {}
