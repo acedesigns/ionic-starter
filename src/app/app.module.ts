@@ -1,9 +1,17 @@
+/**
+ * =============================================================================
+ *
+ * Updated by anele on 2019/05/02
+ *
+ * =============================================================================
+ */
 
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MyApp } from './app.component';
 
@@ -12,7 +20,7 @@ import { MyApp } from './app.component';
   declarations: [ MyApp ],
 
   imports: [
-    BrowserModule,
+    BrowserModule,BrowserAnimationsModule,
     IonicModule.forRoot(MyApp)
   ],
 
@@ -20,9 +28,7 @@ import { MyApp } from './app.component';
 
   entryComponents: [ MyApp ],
 
-  providers: [
-    StatusBar,
-    SplashScreen,
+  providers: [ StatusBar,SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

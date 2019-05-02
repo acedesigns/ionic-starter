@@ -12,12 +12,15 @@
     "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
+    "@angular/animations": "5.0.0",
+    "@angular/cdk": "5.0.0",
     "@angular/common": "5.0.0",
     "@angular/compiler": "5.0.0",
     "@angular/compiler-cli": "5.0.0",
     "@angular/core": "5.0.0",
     "@angular/forms": "5.0.0",
     "@angular/http": "5.0.0",
+    "@angular/material": "5.0.0",
     "@angular/platform-browser": "5.0.0",
     "@angular/platform-browser-dynamic": "5.0.0",
     "@ionic-native/core": "4.3.2",
@@ -42,6 +45,7 @@
     "cordova-plugin-statusbar",
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard",
+    "cordova-plugin-geolocation",
     "cordova-plugin-ionic-webview"
   ],
   "cordovaPlatforms": [
@@ -52,5 +56,8 @@
       "locator": "ios"
     }
   ],
-  "description": "CREATIVES: An Ionic project"
+  "description": "CREATIVES: An Ionic project",
+  "config" : {
+    "ionic_copy" : "./config/copy.config.js"
+  }
 }
